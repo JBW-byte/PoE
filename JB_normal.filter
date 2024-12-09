@@ -18,7 +18,7 @@ Show
 	SetBorderColor 227 155 44 175
 
 Show # Currency t1
-	BaseType == "Divine Orb" "Mirror of Kalandra" "Mirror Shard"
+	BaseType == "Divine Orb" "Mirror of Kalandra" "Mirror Shard" "Perfect Jeweller's Orb"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBackgroundColor 255 255 255 255
