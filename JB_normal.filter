@@ -1,0 +1,50 @@
+Show
+	BaseType == "Gold"
+
+Show
+	Class Currency
+	BaseType == "Scroll of Wisdom"
+	SetFontSize 36
+
+Show
+	Class Currency
+	BaseType == "Armourer's Scrap" "Transmutation Shard" "Chance Shard" 
+	SetFontSize 36
+
+Show
+	Class Currency
+	BaseType == "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Chaos Shard" "Exalted Shard" "Regal Shard" "Alchemy Shard" "Artificer's Shard"
+	SetFontSize 38
+	SetBorderColor 227 155 44 175
+
+Show # Currency t1
+	BaseType == "Divine Orb" "Mirror of Kalandra" "Mirror Shard"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 74 230 58 255
+	MinimapIcon 0 Red Star
+	PlayAlertSound 5 300
+	DisableDropSound
+	PlayEffect Red
+
+Show
+	Class Currency
+	SetFontSize 40
+	SetTextColor 74 230 58 230
+	SetBorderColor 74 230 58 150
+
+Show
+	BaseType "Rune"
+	SetFontSize 42
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 111 255 111 
+
+Show
+	Rarity >= Rare
+	SetFontSize 40
+
+Show
+	Rarity >= Normal
+	SetFontSize 36
